@@ -1,0 +1,86 @@
+# Archivos generados por el entorno de desarrollo
+/node_modules
+
+# Archivos de configuración
+.env
+
+# Archivos de registro y registros de errores
+*.log
+logs
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependiendo del lenguaje o el entorno, puedes agregar más reglas
+# por ejemplo, para proyectos de Node.js
+# Carpeta específica de compilación
+/dist
+
+# Dependiendo de tu IDE, puedes querer ignorar archivos generados por el mismo
+.idea
+.vscode
+
+# Dependiendo de tu sistema de construcción, puedes querer ignorar archivos de compilación
+/build
+/out
+/.next
+/.nuxt
+
+# Dependiendo de tu sistema de gestión de paquetes
+/yarn-error.log
+/.pnp.*
+.pnp.js
+
+# Dependiendo de las herramientas que utilices, puedes querer ignorar archivos generados
+/coverage
+/venv
+/.idea
+/.DS_Store
+
+# Si usas Docker, puedes querer ignorar archivos relacionados
+/docker-compose.yml
+/docker-compose.override.yml
+/.dockerignore
+/.dockerignore.dev
+
+# Si trabajas con bases de datos, puedes querer ignorar archivos de copias de seguridad
+*.sql
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# Si estás desarrollando en una plataforma específica, considera ignorar archivos generados
+# por esa plataforma
+# Ejemplo: Heroku
+/.heroku
+/.profile.d
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pids
+.env.local
+
+# Ejemplo: AWS Elastic Beanstalk
+/.elasticbeanstalk
+
+# Si estás utilizando editorconfig para configurar el estilo del código, puedes ignorar el archivo
+.editorconfig
+
+# Si estás utilizando ESLint para lintear tu código, puedes ignorar archivos generados por ESLint
+.eslintcache
+
+# Si estás utilizando Prettier para formatear tu código, puedes ignorar archivos generados por Prettier
+.prettierignore
+.prettierrc
+
+# Archivos sensibles (como credenciales de API) deben ser ignorados
+# Agrega aquí cualquier archivo o carpeta que contenga información confidencial
+# No subas nunca tus claves de acceso a un repositorio Git público
+secrets.json
